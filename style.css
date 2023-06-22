@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Varela+Round&display=swap');
+
+body{
+
+
+    background-color: antiquewhite;
+}
+*{
+
+    margin: 0;
+    padding: 0;
+}
+nav{
+
+    
+    font-family: 'Varela Round', sans-serif;
+
+}
+  nav ul{
+
+display: flex;
+    list-style: none;
+    height: 45px;
+    background-color: black;
+    color: whitesmoke;
+    align-items: center;
+    
+}
+li{
+
+    padding: 12px;
+    margin: 2px;
+}
+.brand img{
+
+    width: 50px;
+
+
+
+}
+.brand{
+
+    display: flex;
+
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.container{
+height: 66vh;
+    background-color: black;
+    color: blanchedalmond;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 12px auto;
+    width: 70%;
+    
+border-radius: 9px;
+padding: 15px;
+background-image: url('bg.jpg');
+background-size: cover;
+
+}
+.bottom{
+position: relative;
+color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    background-color: black;
+    flex-direction: column;
+    margin: 2px 0;
+   
+}
+#myprogressbar{
+
+    width: 80vw;
+    cursor: pointer;
+}
+.icons{
+
+    margin: 15px;
+}
+i{
+
+    cursor: pointer;
+}
+.songitem{
+    height: 50px;
+    display: flex;
+    background-color: aliceblue;
+    
+    color: black;
+    justify-content: space-between;
+    margin: 20 0px;
+    border-radius: 34px;
+    width: 70%;
+
+}
+.songitem img{
+margin: 0 10px;
+border-radius: 34px;
+
+}
+
+.time{
+
+    margin: 0 23px;
+}
+.songitemcontainer{
+
+    margin-top: 19px;
+}
+.songinfo{
+    position: absolute;
+    left: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+.songinfo img{
+
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+.mar{
+
+    color: bisque;
+    background-color: rgb(166, 77, 77);
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 3px;
+}
